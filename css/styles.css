@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    box-shadow: 10px 10px 5px rgba(255,0,0.1,0.1);
+
+    }
+
+.main-content {
+    background-color: #55d941;
+    margin: 10px;
+    }
+
+.sidebar {
+    background-color: #0cf5f5;
+
+    padding: 5px
+    }
+
+.information {
+    justify-content: flex;
+    font-family: Verdana;
+    margin: 10px;
+    padding: 5px
+}
+
+.user-link {
+    color: #be0ee6;
+    }
+
+.tel-email {
+    font-family: Book Antiqua;
+    letter-spacing: 2px;
+    color: #e36e14;
+    }
+
+
+h1 {
+    text-align: center;
+    font-family: Bebas Neue;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    font-family: Futura PT Heavy;
+    font-weight: bold;
+    color: #f50c0c;
+}
+
+h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #f50c0c;
+}
+h5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+    color: #f50c0c;
+}
+
+h6 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0e27e6;
+}
+
+/* Настройки сетки галереи */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.caption {
+    padding: 8px;
+    font-size: 14px;
+    color: #5c0963;
+    background-color: #a7e681;
+    font-family: Ink Free;
+
+}
